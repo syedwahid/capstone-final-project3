@@ -18,3 +18,4 @@ CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 
 # Add Hello World HTML
 RUN curl https://raw.githubusercontent.com/syedwahid/capstone-final-project3/main/html/index.html --output /var/www/html/index.html
+RUN curl https://raw.githubusercontent.com/syedwahid/capstone-final-project3/main/html/pic-test.png --output /var/www/html/pic-test.png
